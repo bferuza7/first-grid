@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+img{
+    width: 100%
+    
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+
+    position: fixed;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+
+    background-color: red;
+    border-bottom: 2px solid black;
+    
+
+}
+
+a, p, span{
+    text-decoration: none;
+    color: white;
+
+}
+
+hr{
+    margin: 0 0 55px 0;
+
+}
+
+.main{
+    display: grid;
+    width: 100%;
+    height: 80dvh;
+    column-gap: 20px;
+    
+
+    background-color: brown;
+
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.main_img{
+    height: 755px;
+    object-fit: cover;
+
+}
+
+.hero{
+    background-color: rgb(255, 106, 0);
+    
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding: 50px 10px ;
+
+    img{
+        width: 100%;
+    }
+
+    .card{
+        padding: 20px;
+        border: 2px solid black;
+        background-color: red;
+
+        a{
+            font-size: 20px;
+        }
+
+        img{
+            height: 555px;
+            width:450px;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        span{
+            font-size: 35px;
+            display: block;
+
+        }
+
+    }
+
+}
+
+.card2{
+    object-fit: fill !important;
+  
+}
